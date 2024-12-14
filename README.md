@@ -102,9 +102,6 @@ road-condition-detection/
 - Use Transfer Learning for improved accuracy.
 - Add real-time video stream processing.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Author
 
