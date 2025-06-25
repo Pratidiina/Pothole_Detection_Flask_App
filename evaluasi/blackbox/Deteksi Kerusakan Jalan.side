@@ -1,0 +1,85 @@
+{
+  "id": "f2101560-58fb-4657-95c4-14c0c84beea6",
+  "version": "2.0",
+  "name": "Deteksi Kerusakan Jalan",
+  "url": "https://redesigned-cod-697gx55q5rpf4jv7-5000.app.github.dev",
+  "tests": [{
+    "id": "2cbb5408-152f-4704-b792-5804cda75eee",
+    "name": "Test 1",
+    "commands": [{
+      "id": "fa3bd3fa-2264-47b4-beed-9a44da347fcf",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6f3ec98-4e21-44a4-8e43-8ad48ef5eafd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1295x687",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a10323b9-5ead-430f-acb4-0dbe945c2041",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d665ea89-eeb0-410c-986f-307b490bb7ee",
+      "comment": "",
+      "command": "click",
+      "target": "id=image",
+      "targets": [
+        ["id=image", "id"],
+        ["name=image", "name"],
+        ["css=#image", "css:finder"],
+        ["xpath=//input[@id='image']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce1736c6-513c-4ad3-b4bb-c7363d84a0ce",
+      "comment": "",
+      "command": "type",
+      "target": "id=image",
+      "targets": [
+        ["id=image", "id"],
+        ["name=image", "name"],
+        ["css=#image", "css:finder"],
+        ["xpath=//input[@id='image']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\Sequence Create.jpg"
+    }, {
+      "id": "50b08781-5c26-4648-a747-1cc5a4d1c3a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Predict')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e89c9362-f50f-4b11-a59c-b99068099177",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2cbb5408-152f-4704-b792-5804cda75eee"]
+  }],
+  "urls": ["https://redesigned-cod-697gx55q5rpf4jv7-5000.app.github.dev/"],
+  "plugins": []
+}
