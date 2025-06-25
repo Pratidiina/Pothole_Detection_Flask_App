@@ -21,7 +21,7 @@ def home():
 @app.route('/predict', methods=['POST'])
 def predict():
     if 'image' not in request.files:
-        return "No file part", 400
+        return "No file part indeed", 400
 
     file = request.files['image']
     if file.filename == '':
