@@ -1,6 +1,6 @@
-##Analisis MIT dan GPL
+#Analisis MIT dan GPL#
 
-##MIT License
+#MIT License#
 MIT License merupakan lisensi permissive yang memberikan kebebasan maksimal kepada pengguna. Filosofi utamanya adalah memberikan fleksibilitas tanpa batas kepada developer untuk menggunakan, memodifikasi, dan mendistribusikan software. Lisensi ini memungkinkan integrasi dengan software proprietary tanpa harus membuka source code, sehingga lebih banyak developer yang mungkin menggunakan software tersebut. Kesederhanaan MIT License membuatnya sangat cocok untuk adopsi komersial dan enterprise karena minimal legal overhead yang diperlukan. Kebebasan yang diberikan MIT License juga memiliki kelemahan. Lisensi ini tidak menjamin bahwa pengguna akan berkontribusi kembali ke komunitas open source. Bahkan dalam beberapa kasus, MIT License bisa digunakan untuk memblokir kontribusi dari komunitas.
 
 ##GPL
